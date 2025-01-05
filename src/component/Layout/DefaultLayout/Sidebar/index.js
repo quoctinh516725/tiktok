@@ -1,5 +1,12 @@
+import "./sideBar.scss";
 function Sidebar() {
-  return <h1>Sidebar</h1>;
+  return (
+    <aside className="sidebar">
+      <div className="content">
+        <h1>Sidebar</h1>
+      </div>
+    </aside>
+  );
 }
 
 export default Sidebar;

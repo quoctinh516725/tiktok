@@ -3,27 +3,27 @@ import Following from "../pages/Following";
 import Friend from "../pages/Friend";
 import Upload from "../pages/Upload";
 import { HeaderOnly } from "../component/Layout";
-import Search from "../pages/Home copy";
+import Search from "../pages/Search";
 const publicRouter = [
   {
     path: "/",
     component: Home,
   },
   {
-    path: "/Following",
+    path: "/following",
     component: Following,
   },
   {
-    path: "/Friend",
+    path: "/friend",
     component: Friend,
   },
   {
-    path: "/Upload",
+    path: "/upload",
     component: Upload,
     layout: HeaderOnly,
   },
   {
-    path: "/Search",
+    path: "/search",
     component: Search,
   },
 ];

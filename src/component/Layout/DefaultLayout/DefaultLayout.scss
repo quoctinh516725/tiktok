@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: #121212;
+  .container {
+    width: var(--withDefault);
+    margin: 0 auto;
+    display: flex;
+    .content {
+      height: 100vh;
+    }
+  }
+}
